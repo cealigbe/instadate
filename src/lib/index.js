@@ -1,0 +1,22 @@
+// place files you want to import through the `$lib` alias in this folder.
+
+import { dev } from "$app/env";
+
+export function slugify(str) {
+  let slug = str.split(" ").join("-");
+  return slug.toLowerCase();
+}
+
+export function optimize(src, widths = [640, 960, 1280], quality = 90) {
+  if (dev) return src;
+
+  return widths
+    .slice()
+    .sort((a, b) => a - b)
+    .map((width, i) => {
+      const url = `/_vercel/image?url=${encodeURIComponent(src)}&w=${width}&q=${quality}`;
+      const descriptor = i < widths.length - 1 ? ` ${width}w` : "";
+      return url + descriptor;
+    })
+    .join(", ");
+}

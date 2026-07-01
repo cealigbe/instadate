@@ -1,0 +1,1450 @@
+[
+  {
+    "id": 1,
+    "title": "Coffee Shop Hop & People Watch",
+    "duration": "2-3 hours",
+    "cost": "$",
+    "category": "Simple",
+    "tags": ["Casual", "Indoor"],
+    "img": "coffee-shop.webp",
+    "description": "Pick a trendy neighborhood and try a coffee or tea from two different local shops, finding a good spot to people-watch and chat.",
+    "enhancements": [
+      "Print out a fun 'people-watching bingo' card before you go — first to five wins a coffee on the other",
+      "Research each cafe beforehand and give each other a rating scorecard for ambiance, drink quality, and vibe",
+      "Pick a neighborhood you've never explored together and turn the walk between cafes into a mini discovery tour",
+      "Bring a small notebook and take turns writing one-sentence fictional backstories for the people you spot"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Board Game Night In",
+    "duration": "2-4 hours",
+    "cost": "$",
+    "category": "Simple",
+    "tags": ["Cozy", "Indoor"],
+    "img": "board-game.webp",
+    "description": "Pick up a new (or classic) board game or card game, grab some snacks, and have a cozy night in.",
+    "enhancements": [
+      "Set up a 'tournament bracket' across three different games and crown an overall champion at the end of the night",
+      "Make themed cocktails or mocktails that match the game's setting — medieval mead for Catan, spy martinis for Codenames",
+      "Order from a restaurant you've both been meaning to try and eat dinner while you play your first round",
+      "Add low stakes but fun consequences for losing, like the loser has to do dishes or pick the next movie"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "DIY Pizza Night",
+    "duration": "2-3 hours",
+    "cost": "$",
+    "category": "Simple",
+    "tags": ["Creative", "Indoor"],
+    "img": "pizza-night.webp",
+    "description": "Buy pre-made dough and a variety of toppings, then make individual pizzas together and see whose creation turns out best.",
+    "enhancements": [
+      "Set a secret 'mystery topping' challenge — each person must incorporate one surprise ingredient chosen by the other",
+      "Make your own dough from scratch together for a more hands-on experience and the pride of a fully homemade pizza",
+      "Set up a blind taste test by swapping slices and scoring each other's pizza on crust, sauce, and creativity",
+      "Pair each pizza with a different wine or craft beer and treat it like a proper tasting experience"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Podcast & Chill",
+    "duration": "1-2 hours",
+    "cost": "Free",
+    "category": "Simple",
+    "tags": ["Relaxed", "Indoor"],
+    "img": "podcast.webp",
+    "description": "Find a new podcast series you both might enjoy, put on a speaker, and just listen and discuss what comes up.",
+    "enhancements": [
+      "Each pick one episode from a completely different genre and take turns surprising each other — no spoilers allowed",
+      "Make it a proper listening night with dim lights, candles, and a charcuterie board to snack on while you listen",
+      "Pause after each major point and discuss your takes before moving on — turn it into a real shared conversation",
+      "Start a running list of topics, books, or rabbit holes the podcast sends you both down and make a date to explore each one"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Local Bookstore Browse",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "Simple",
+    "tags": ["Relaxed", "Indoor"],
+    "img": "bookstore-1.webp",
+    "description": "Spend an hour or two wandering through a local independent bookstore, picking out books for each other or discussing interesting titles.",
+    "enhancements": [
+      "Give each other a $15 budget and a 10-minute time limit to pick the perfect book for the other person — no peeking",
+      "Ask a staff member for their single favorite recommendation and commit to reading it together as a mini book club",
+      "Write a short note inside the cover before you gift each other the books, explaining why you chose it",
+      "Check if the bookstore hosts author events or readings and plan a return visit around one you're both curious about"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Dessert First Date",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "Simple",
+    "tags": ["Sweet", "Indoor"],
+    "img": "ice-cream.webp",
+    "description": "Skip dinner and go straight for a fancy dessert place, ice cream parlor, or bakery — life is short, eat dessert first.",
+    "enhancements": [
+      "Order one of everything on the tasting menu and share bites, ranking each one as you go",
+      "Visit two or three different dessert spots in the same evening and compare — make it a progressive dessert crawl",
+      "Try to recreate your favorite dessert from the evening at home the following week",
+      "Bring a small bottle of dessert wine or champagne to a BYOB bakery to make the experience feel extra celebratory"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Park Bench Deep Dive",
+    "duration": "1-2 hours",
+    "cost": "Free",
+    "category": "Simple",
+    "tags": ["Romantic", "Outdoor"],
+    "img": "park-bench.webp",
+    "description": "Go to a local park, find a quiet bench, and just talk — no phones, no distractions, just focused conversation.",
+    "enhancements": [
+      "Bring a printed list of deep conversation starter questions and work through them slowly — no surface-level small talk allowed",
+      "Pack a simple thermos of coffee or tea and something sweet to snack on so there's no reason to rush off",
+      "Set a shared intention before you sit down — one honest thing you each want the other to know by the end",
+      "Go at golden hour so the lighting and atmosphere add a natural sense of romance to the conversation"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Thrift Store Treasure Hunt",
+    "duration": "2-3 hours",
+    "cost": "$",
+    "category": "Simple",
+    "tags": ["Playful", "Indoor"],
+    "img": "thrift-store.webp",
+    "description": "Give each other a small budget ($10–$20) and challenge each other to find the most interesting, funniest, or most stylish item.",
+    "enhancements": [
+      "Add specific categories to the challenge — most romantic, most useless, most likely to belong to a villain — and vote on a winner for each",
+      "Whatever you buy for each other, you each have to wear or carry it for the rest of the outing",
+      "Try to assemble a complete outfit for each other under $20 total and model them at the end",
+      "Hit two or three different thrift stores in the same trip and compare what each neighborhood's shop has to offer"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Build a Fort & Watch a Movie",
+    "duration": "2-4 hours",
+    "cost": "Free",
+    "category": "Simple",
+    "tags": ["Cozy", "Indoor"],
+    "img": "pillow-fort.webp",
+    "description": "Recreate a childhood classic by building a blanket fort in your living room and watching a favorite movie inside.",
+    "enhancements": [
+      "Set up string lights inside the fort for atmosphere and use a projector instead of a laptop screen for a proper cinema feel",
+      "Make a themed snack spread that matches the movie — candy from the era, themed cocktails, or foods featured in the film",
+      "Each pick a movie the other hasn't seen and make it a double feature — let the fort decide the vibe",
+      "Write a 'Fort Rules' list together before you start: no phones, must share the blanket, mandatory commentary is encouraged"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Cook a Simple Meal Together",
+    "duration": "2-3 hours",
+    "cost": "$",
+    "category": "Simple",
+    "tags": ["Creative", "Indoor"],
+    "img": "cooking.webp",
+    "description": "Pick a new, easy recipe you both want to try and cook it from scratch together, sharing the tasks along the way.",
+    "enhancements": [
+      "Pick a cuisine neither of you has cooked before and watch a short YouTube tutorial together first",
+      "Set a 'no phones at the table' rule and actually sit down to eat properly with candles and music you both love",
+      "Assign roles — one person on prep, one on cooking — and switch halfway through so you both learn every step",
+      "Make it a full evening by pairing the meal with a wine or drink that complements the cuisine and toast before you eat"
+    ]
+  },
+
+  {
+    "id": 11,
+    "title": "Scenic Hike with a View",
+    "duration": "3-5 hours",
+    "cost": "Free",
+    "category": "Outdoorsy",
+    "tags": ["Active", "Outdoor"],
+    "img": "hiking.webp",
+    "description": "Find a local trail with a rewarding viewpoint and pack some water and snacks for a refreshing outdoor adventure.",
+    "enhancements": [
+      "Pack a proper picnic to enjoy at the summit — cheese, fruit, and a small thermos of something warm makes the view twice as good",
+      "Download an offline trail map beforehand and challenge yourselves to navigate without your phones for the full hike",
+      "Bring a watercolor set or sketchbook to the viewpoint and spend 20 minutes each drawing what you see",
+      "Start before sunrise and time your arrival at the top for golden hour light — bring a headlamp for the early descent"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Picnic in a Botanical Garden",
+    "duration": "2-4 hours",
+    "cost": "$",
+    "category": "Outdoorsy",
+    "tags": ["Romantic", "Outdoor"],
+    "img": "botanical-garden.webp",
+    "description": "Explore beautiful gardens and then find a picturesque spot to spread out a blanket and enjoy a packed lunch.",
+    "enhancements": [
+      "Download a plant identification app and try to name every interesting specimen you pass — make it a running competition",
+      "Pack a proper picnic basket with cloth napkins, real cutlery, and a bottle of wine or sparkling water for a polished spread",
+      "Sketch or photograph your three favorite plants and look up their origins and symbolism when you get home",
+      "Check the garden's event calendar — many host guided tours, evening events, or seasonal flower shows worth timing your visit around"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Urban Bike Ride",
+    "duration": "2-4 hours",
+    "cost": "$",
+    "category": "Outdoorsy",
+    "tags": ["Active", "Outdoor"],
+    "img": "bike-ride.webp",
+    "description": "Rent bikes or use your own to explore a new part of the city, a waterfront path, or a dedicated bike trail.",
+    "enhancements": [
+      "Build a 'pit stop' route with three pre-planned stops — a coffee, a viewpoint, and a snack — to give the ride a natural shape",
+      "Create a shared playlist that lasts exactly as long as your planned ride and let the music set the pace",
+      "Challenge each other to spot five things you've never noticed in the city before and compare notes at the end",
+      "End the ride at a waterfront spot or rooftop bar where you can sit down, stretch, and relive the best moments"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Stargazing Night",
+    "duration": "2-3 hours",
+    "cost": "Free",
+    "category": "Outdoorsy",
+    "tags": ["Romantic", "Outdoor"],
+    "img": "stargazing.webp",
+    "description": "Drive away from city lights to a dark sky location, bring a blanket, and try to identify constellations using an app.",
+    "enhancements": [
+      "Pack a thermos of hot chocolate or mulled wine and a proper sleeping bag so you can stay out as long as you want",
+      "Look up the mythology behind three constellations before you go and take turns telling each other the stories under the sky",
+      "Time your trip around a meteor shower or planetary event for a built-in celestial highlight",
+      "Bring a red-light headlamp to preserve your night vision and a star chart to navigate without relying on your phone"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Paddleboarding or Kayaking",
+    "duration": "2-4 hours",
+    "cost": "$$",
+    "category": "Outdoorsy",
+    "tags": ["Active", "Outdoor"],
+    "img": "paddle-boarding.webp",
+    "description": "Rent paddleboards or kayaks at a local lake, river, or calm bay for a unique water perspective on the landscape.",
+    "enhancements": [
+      "Pack a waterproof dry bag with snacks and a small speaker so you can drift, eat, and listen to music out on the water",
+      "Plan a route to a specific destination — a hidden cove, a waterfall, or a sandy bank — so the paddle has a purpose",
+      "Rent a tandem kayak instead of individual boats for a built-in teamwork challenge that requires actual coordination",
+      "Time your paddle for sunset so you're out on the water during the best light of the day"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Outdoor Yoga Class",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "Outdoorsy",
+    "tags": ["Active", "Outdoor"],
+    "img": "yoga-2.webp",
+    "description": "Find a park or beach offering an outdoor yoga, Pilates, or boot camp class you can do side by side.",
+    "enhancements": [
+      "Follow the class with a slow walk and a smoothie or healthy brunch to keep the wellness vibe going",
+      "Try a couples yoga class specifically — the partner poses add a fun and surprisingly romantic element",
+      "Lay out your mats somewhere scenic rather than a standard studio space so the setting enhances the experience",
+      "Practice a short meditation together at the end of class, just the two of you, before you pack up and leave"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Farmers Market & Cook",
+    "duration": "3-5 hours",
+    "cost": "$$",
+    "category": "Outdoorsy",
+    "tags": ["Creative", "Outdoor"],
+    "img": "farmers-market.webp",
+    "description": "Visit a local farmers market, pick out fresh seasonal ingredients, and then go home to cook a meal inspired by your finds.",
+    "enhancements": [
+      "Set a rule that you can only buy ingredients you've never cooked with before — see what unusual produce or proteins you can find",
+      "Talk to the farmers and vendors about how they'd prepare their ingredients and incorporate their suggestions into your meal",
+      "Photograph every ingredient you buy and document the finished dish — it makes for a genuinely satisfying before-and-after",
+      "Make it a regular monthly ritual tied to what's in season so you build a collection of market-inspired recipes over time"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Geocaching Adventure",
+    "duration": "2-3 hours",
+    "cost": "Free",
+    "category": "Outdoorsy",
+    "tags": ["Playful", "Outdoor"],
+    "img": "geocaching.webp",
+    "description": "Use a geocaching app to find hidden treasures in your local area, turning an ordinary walk into a scavenger hunt.",
+    "enhancements": [
+      "Bring a small trinket to swap into the cache you find — it's part of geocaching etiquette and adds a satisfying ritual",
+      "Set a target of finding five caches in one outing and map out a walking route that connects them all",
+      "Read the log entries left by previous finders and write a fun entry of your own when you find each cache",
+      "Try multi-cache routes where each location gives you a clue to the next — they're harder but far more rewarding"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Outdoor Movie Night",
+    "duration": "3-4 hours",
+    "cost": "$",
+    "category": "Outdoorsy",
+    "tags": ["Relaxed", "Outdoor"],
+    "img": "outdoor-movie.webp",
+    "description": "Attend a local outdoor movie screening in a park or drive-in theater — bring a blanket and snacks for the full experience.",
+    "enhancements": [
+      "Arrive early enough to claim a good spot and lay out a full picnic spread before the film starts",
+      "Pack homemade popcorn in a large bowl with several different seasoning options to try throughout the movie",
+      "Bring proper outdoor chairs or a large inflatable air mat instead of just a blanket for serious comfort",
+      "Theme your snacks and drinks around the movie — if it's a 90s film, bring 90s candy and sodas for a nostalgia hit"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Nature Photography Walk",
+    "duration": "1-3 hours",
+    "cost": "Free",
+    "category": "Outdoorsy",
+    "tags": ["Creative", "Outdoor"],
+    "img": "nature-walk.webp",
+    "description": "Bring your phones or cameras and challenge each other to capture the most interesting natural elements, textures, or light.",
+    "enhancements": [
+      "Give each other three specific creative constraints before you start — e.g. only macro shots, only reflections, only shadows",
+      "Share your photos over dinner afterward and let the other person title each of your images before you reveal your own title",
+      "Print your five favorite shots from the walk and frame them as a set — it becomes a meaningful piece of shared artwork",
+      "Visit the same location across different seasons and build a growing visual diary of how it changes over the year"
+    ]
+  },
+
+  {
+    "id": 21,
+    "title": "Quick Coffee & Walk",
+    "duration": "1 hour",
+    "cost": "$",
+    "category": "Quick",
+    "tags": ["Casual", "Outdoor"],
+    "img": "coffee-walk.webp",
+    "description": "Grab a coffee to go and take a brisk walk around a charming neighborhood or park — simple, easy, and grounding.",
+    "enhancements": [
+      "Pick a neighborhood neither of you knows well and give yourselves permission to wander without a specific destination",
+      "Each pick one interesting building, mural, or detail to photograph during the walk and share them over coffee after",
+      "End the walk at a spot with a good view and give yourselves 10 quiet minutes with no agenda before heading back",
+      "Try a different coffee shop each time and compare notes — it turns a simple habit into a local discovery project"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Art Gallery Pop-In",
+    "duration": "1 hour",
+    "cost": "$",
+    "category": "Quick",
+    "tags": ["Cultural", "Indoor"],
+    "img": "art-gallery.webp",
+    "description": "Visit a small local art gallery or a specific exhibit at a larger museum for an hour of culture and conversation.",
+    "enhancements": [
+      "Each pick the one piece you'd take home if you could and explain why — you'll learn something real about each other",
+      "Play 'art critic' and take turns giving an overly serious analysis of the most unusual piece in the room",
+      "Check if the gallery offers a guided tour or has audio commentary and actually use it — the context changes everything",
+      "Visit a gallery opening night for free wine, a livelier crowd, and the chance to meet the artist themselves"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Ice Cream or Gelato Run",
+    "duration": "1 hour",
+    "cost": "$",
+    "category": "Quick",
+    "tags": ["Sweet", "Outdoor"],
+    "img": "gelato.webp",
+    "description": "Just go for a quick treat — no fuss, no reservations, just great flavors and easy conversation.",
+    "enhancements": [
+      "Order one scoop each of a flavor you'd never normally try, in addition to your usual — it sparks surprisingly good conversation",
+      "Walk to a nearby park or waterfront to eat your ice cream instead of standing outside the shop",
+      "Turn it into a neighborhood crawl — try two or three different gelato or ice cream spots and vote on the best",
+      "Bring a small portable speaker and find a bench with a good view so it feels like more than just a quick errand"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Bookstore or Record Store Browse",
+    "duration": "1 hour",
+    "cost": "Free",
+    "category": "Quick",
+    "tags": ["Relaxed", "Indoor"],
+    "img": "record-store.webp",
+    "description": "Spend 30–60 minutes exploring a new or favorite bookstore or record shop and see what you each gravitate toward.",
+    "enhancements": [
+      "Pick out one book or album for each other without explanation and reveal your choices over coffee afterward",
+      "Ask the person working there for their personal recommendation and commit to reading or listening to it",
+      "Give yourselves a $10 limit and a 15-minute time limit to find the best possible find — constraints make it more fun",
+      "Browse separately and then meet back up to share the three most interesting things you found — no purchases required"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "One Drink Happy Hour",
+    "duration": "1 hour",
+    "cost": "$",
+    "category": "Quick",
+    "tags": ["Casual", "Indoor"],
+    "img": "bar-1.webp",
+    "description": "Meet for a single drink at a cool bar or brewery during happy hour — just enough time to reconnect without overcommitting.",
+    "enhancements": [
+      "Try a bar neither of you has been to before — discovery makes even one drink feel like more of an event",
+      "Order something off the menu you wouldn't normally choose and let the bartender's recommendation guide you",
+      "Bring a small card with three conversation questions you've been meaning to ask each other — use the drink time well",
+      "Sit at the bar instead of a table — the energy is different and you're more likely to end up in interesting conversations"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Dessert & Chat",
+    "duration": "1 hour",
+    "cost": "$",
+    "category": "Quick",
+    "tags": ["Sweet", "Indoor"],
+    "img": "tarts.webp",
+    "description": "Head to a local bakery or cafe for a quick dessert and a focused, distraction-free chat.",
+    "enhancements": [
+      "Put your phones in your bags the moment you sit down and commit to an entirely screen-free hour",
+      "Order something to share rather than individual items — it creates a natural intimacy and you try more things",
+      "Bring one question you've genuinely been curious about and don't let the conversation drift to logistics or small talk",
+      "Try a new bakery you've been wanting to visit rather than defaulting to the usual — make even a small outing an adventure"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Short Scenic Drive",
+    "duration": "1-2 hours",
+    "cost": "Free",
+    "category": "Quick",
+    "tags": ["Relaxed", "Outdoor"],
+    "img": "scenic-drive.webp",
+    "description": "Take a short drive to a viewpoint or a pretty area, put on a great playlist, and let the conversation flow.",
+    "enhancements": [
+      "Build a collaborative playlist together in the days leading up to the drive — no skipping each other's songs allowed",
+      "Pack a small cooler with drinks and snacks so you can pull over anywhere scenic without needing to find a cafe",
+      "Set a rule that you can't look at your destination ahead of time — just pick a direction and see where you end up",
+      "Time the drive to arrive at the viewpoint exactly at sunset for a genuinely cinematic experience"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Local Landmark Visit",
+    "duration": "1-2 hours",
+    "cost": "Free",
+    "category": "Quick",
+    "tags": ["Cultural", "Outdoor"],
+    "img": "merlion.webp",
+    "description": "Pop into a historical building, unique monument, or famous local landmark you've both been meaning to actually explore.",
+    "enhancements": [
+      "Look up the full history of the landmark before you go so you can share interesting facts with each other on site",
+      "Challenge each other to find three things about the location that most locals would never notice or know",
+      "Visit at an unusual time — early morning or just before closing — when the crowds are gone and the place feels entirely yours",
+      "Photograph yourselves at the landmark and compare it to historical photos of the same spot from decades ago"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Quick Game of Pool or Darts",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "Quick",
+    "tags": ["Playful", "Indoor"],
+    "img": "billiards.webp",
+    "description": "Find a bar with a pool table or dartboard and play a quick game or two — easy competition, easy laughs.",
+    "enhancements": [
+      "Add a handicap rule if one of you is significantly better — it keeps the competition genuinely tense",
+      "Make it a best-of-five series with a small prize for the winner, like choosing the next date activity",
+      "Learn and try a new darts game format — Cricket, Around the Clock, or 501 — instead of defaulting to the usual",
+      "Find a bar with multiple games available and make it a mini Olympics — pool, darts, pinball, and keep a running score"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Plant Shop Visit",
+    "duration": "1 hour",
+    "cost": "$",
+    "category": "Quick",
+    "tags": ["Relaxed", "Indoor"],
+    "img": "plant-shop.webp",
+    "description": "Wander through a local plant nursery, pick out a new plant for your home, or just enjoy the greenery together.",
+    "enhancements": [
+      "Each pick a plant for the other person's space and explain why you chose it — it becomes a small, lasting gift",
+      "Ask the nursery staff to recommend the most interesting or unusual plant in the shop and learn how to care for it together",
+      "Name the plant you buy together and commit to updating each other on its progress — a small shared responsibility",
+      "Follow the nursery visit with a coffee at a nearby cafe and look up care tips for your new plant over drinks"
+    ]
+  },
+
+  {
+    "id": 31,
+    "title": "Cocktail Bar Experience",
+    "duration": "2-3 hours",
+    "cost": "$$$",
+    "category": "Sophisticated",
+    "tags": ["Elegant", "Indoor"],
+    "img": "cocktail.webp",
+    "description": "Visit a speakeasy or craft cocktail bar known for its unique drinks and carefully considered ambiance.",
+    "enhancements": [
+      "Skip the menu entirely and let the bartender create something bespoke — describe your mood and preferences and see what they craft",
+      "Research the bar's signature cocktail before you go and order it first so you have a baseline to compare everything else against",
+      "Dress up properly for the occasion — the right outfit changes how you carry yourselves and makes the whole evening feel elevated",
+      "Visit two bars in one evening: one classic hotel bar and one experimental cocktail spot, and contrast the experiences"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Wine or Beer Tasting",
+    "duration": "2-3 hours",
+    "cost": "$$",
+    "category": "Sophisticated",
+    "tags": ["Elegant", "Indoor"],
+    "img": "wine.webp",
+    "description": "Attend a tasting at a local winery, brewery, or specialty shop offering curated flights and guided notes.",
+    "enhancements": [
+      "Take notes on each pour — even if you know nothing about wine or beer, writing down your honest impressions is surprisingly fun",
+      "Buy a bottle of your joint favorite from the tasting to share at home on a future date as a way to relive the evening",
+      "Pair the tasting with a cheese or charcuterie board and discuss how each combination works — it extends the experience",
+      "Book a private tasting session if one is available — the extra attention and education makes it feel genuinely special"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Live Jazz or Blues Night",
+    "duration": "3-4 hours",
+    "cost": "$$",
+    "category": "Sophisticated",
+    "tags": ["Cultural", "Indoor"],
+    "img": "jazz.webp",
+    "description": "Find a venue with live jazz or blues music and settle in for an evening of atmosphere, great sound, and good company.",
+    "enhancements": [
+      "Arrive early to get a good table close to the stage — the intimate proximity to live musicians is what makes it unforgettable",
+      "Look up the band or artist performing beforehand and share your two favorite tracks with each other before you go",
+      "Order a classic drink that fits the mood — a Negroni, an Old Fashioned, or a simple glass of bourbon on ice",
+      "Let the music fill the silences rather than feeling the need to talk constantly — comfortable quiet is its own kind of intimacy"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Art Museum Exploration",
+    "duration": "3-4 hours",
+    "cost": "$$",
+    "category": "Sophisticated",
+    "tags": ["Cultural", "Indoor"],
+    "img": "art-museum.webp",
+    "description": "Spend a few hours at a major art museum, focusing on a specific wing or exhibit that genuinely interests you both.",
+    "enhancements": [
+      "Give each other one hour to explore independently, then reunite and take each other to your single favorite piece",
+      "Pick one piece each that you find genuinely puzzling and spend time researching the artist and context together on site",
+      "Check whether the museum has a late-night opening — the atmosphere is entirely different after hours with a glass of wine",
+      "Follow the museum with dinner nearby and use the art as a springboard for a longer conversation about aesthetics and taste"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Gourmet Cooking Class",
+    "duration": "3-4 hours",
+    "cost": "$$$",
+    "category": "Sophisticated",
+    "tags": ["Creative", "Indoor"],
+    "img": "cooking-class.webp",
+    "description": "Take a cooking class together focusing on a specific cuisine or technique, guided by a professional chef.",
+    "enhancements": [
+      "Choose a cuisine that neither of you has cooked before to guarantee it's a genuinely new experience for both",
+      "Take notes during class and commit to recreating the dish at home within two weeks — it solidifies what you learned",
+      "Ask the chef for one technique tip that will genuinely upgrade your everyday home cooking",
+      "Pair the class with a pre-dinner cocktail somewhere nearby beforehand so the whole evening feels like a proper occasion"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Theater Performance",
+    "duration": "3-4 hours",
+    "cost": "$$$",
+    "category": "Sophisticated",
+    "tags": ["Cultural", "Indoor"],
+    "img": "theatre.webp",
+    "description": "Attend a local play, musical, or independent theater production — dinner beforehand makes it a full evening.",
+    "enhancements": [
+      "Read a short synopsis of the play beforehand so you arrive with enough context to fully appreciate the performances",
+      "Book dinner at a restaurant near the theater early enough to arrive unhurried and use the time to talk about what you're expecting",
+      "Check for a post-show discussion or talk-back session with the cast — they're rare but genuinely fascinating",
+      "Dress up for the occasion and make the evening feel like a real event rather than just another night out"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Fine Dining Experience",
+    "duration": "3-4 hours",
+    "cost": "$$$$",
+    "category": "Sophisticated",
+    "tags": ["Elegant", "Indoor"],
+    "img": "fine-dining.webp",
+    "description": "Splurge on a meal at a highly-rated restaurant you've both wanted to try — dress up and make an occasion of it.",
+    "enhancements": [
+      "Ask the sommelier to pair wines by the glass with each course — it adds a guided dimension to the meal",
+      "Request the chef's tasting menu if available and surrender completely to what they've designed — no modifications",
+      "Research the chef and restaurant beforehand so you can appreciate what makes their approach distinctive",
+      "Linger deliberately — fine dining is meant to be unhurried, so clear your evening and resist any impulse to rush"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Classical Music Concert",
+    "duration": "3-4 hours",
+    "cost": "$$$",
+    "category": "Sophisticated",
+    "tags": ["Cultural", "Indoor"],
+    "img": "orchestra.webp",
+    "description": "Attend a symphony orchestra performance, opera, or chamber music concert for an evening of refined culture.",
+    "enhancements": [
+      "Listen to the main pieces being performed before the concert so you can recognize themes when they appear live",
+      "Read the program notes carefully during the interval — they add real depth to what you've just heard",
+      "Dress elegantly for the occasion and have a drink in the lobby before the performance to soak in the full atmosphere",
+      "Book seats in different price tiers across two concerts — compare how the experience differs from the front rows versus the balcony"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Architectural Walking Tour",
+    "duration": "2-3 hours",
+    "cost": "$",
+    "category": "Sophisticated",
+    "tags": ["Cultural", "Outdoor"],
+    "img": "la-defense.webp",
+    "description": "Take a guided or self-guided tour of your city's significant architecture, discovering the stories behind the buildings.",
+    "enhancements": [
+      "Download a specific architectural tour app or audio guide before you go so the history comes to life as you walk",
+      "Bring a sketchbook and draw the most interesting facade you pass — even a rough sketch makes you look more carefully",
+      "Play 'spot the era' and try to date buildings by their architectural style before you look them up",
+      "End the tour at the city's best rooftop bar or elevated viewpoint to see the architectural landscape from above"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Curated Tasting Menu",
+    "duration": "3-5 hours",
+    "cost": "$$$$",
+    "category": "Sophisticated",
+    "tags": ["Elegant", "Indoor"],
+    "img": "tasting-menu.webp",
+    "description": "Experience a restaurant's tasting menu, allowing the chef to guide your culinary journey course by course.",
+    "enhancements": [
+      "Book a chef's table or kitchen-facing counter seat if available — watching the kitchen work is half the experience",
+      "Add the wine pairing if your budget allows — the sommelier's choices are an education in themselves",
+      "Make a note of every course and your honest reaction to each one — it becomes a great record of the evening",
+      "Research the chef's culinary background before you go so you can recognise their influences in each dish as it arrives"
+    ]
+  },
+
+  {
+    "id": 41,
+    "title": "Dinner & a Movie",
+    "duration": "4-5 hours",
+    "cost": "$$",
+    "category": "Classic",
+    "tags": ["Romantic", "Indoor"],
+    "img": "dinner-date.webp",
+    "description": "Elevate the classic by choosing a highly-rated restaurant and pairing it with an indie film or a timeless classic.",
+    "enhancements": [
+      "Choose a restaurant that thematically connects to the movie — Italian food before Cinema Paradiso, Japanese before a Kurosawa film",
+      "Discuss the film over a nightcap afterward rather than parting ways immediately — the best conversations happen then",
+      "Each make a private prediction about the film before it starts and compare notes once the credits roll",
+      "Go to an independent cinema rather than a multiplex — the curation, the crowd, and the atmosphere are entirely different"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Bowling Night",
+    "duration": "2-4 hours",
+    "cost": "$$",
+    "category": "Classic",
+    "tags": ["Fun", "Indoor"],
+    "img": "bowling.webp",
+    "description": "Lace up those rental shoes — a fun, competitive, and lighthearted activity that encourages real interaction.",
+    "enhancements": [
+      "Make up ridiculous team names and score-tracking nicknames before the first frame — the sillier the better",
+      "Add a rule that each strike or spare earns a small reward, like choosing the next song on the jukebox",
+      "Order a round of loaded fries or nachos to share at the lane and settle in properly for a full bowling session",
+      "Book a glow-in-the-dark or cosmic bowling session if available — the vibe is completely different and genuinely fun"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Mini Golf",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "Classic",
+    "tags": ["Playful", "Outdoor"],
+    "img": "mini-golf.webp",
+    "description": "A playful and often humorous way to spend an hour or two — windmills, waterfalls, and friendly trash talk included.",
+    "enhancements": [
+      "Play a two-hole handicap where the worse player gets to place the other's ball in a slightly worse position once per game",
+      "Make up a rule that whoever gets a hole-in-one picks where you go for food or drinks afterward",
+      "Find a mini golf course with a unique theme — rooftop, glow-in-the-dark, or adventure course — for a more memorable round",
+      "Keep a running commentary in the style of a sports broadcast — it makes even missed putts feel cinematic"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Picnic in the Park",
+    "duration": "2-3 hours",
+    "cost": "$",
+    "category": "Classic",
+    "tags": ["Romantic", "Outdoor"],
+    "img": "picnic.webp",
+    "description": "Pack a delicious spread, a blanket, and enjoy the outdoors together with no agenda and nowhere else to be.",
+    "enhancements": [
+      "Upgrade from store-bought to a genuinely curated spread — good cheese, bread, charcuterie, and a bottle of something cold",
+      "Bring a book of conversation cards or a printed list of questions and actually use them rather than scrolling your phones",
+      "Choose a location with a view — a hilltop, a lakeside, or a rose garden — rather than the nearest patch of grass",
+      "Arrive early enough to stake a spot and set up properly before the park fills up, then let the afternoon stretch lazily"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Ice Skating",
+    "duration": "2-3 hours",
+    "cost": "$$",
+    "category": "Classic",
+    "tags": ["Romantic", "Outdoor"],
+    "img": "ice-skating.webp",
+    "description": "A romantic and active date — especially charming during winter months when the rink has a magical atmosphere.",
+    "enhancements": [
+      "Go during a quieter session — weekday mornings or early afternoons — when the rink is less crowded and you have more space",
+      "Warm up afterward with hot chocolate or mulled wine at a nearby cafe and let the cold linger as part of the memory",
+      "If one of you is more confident on skates, commit to genuinely teaching the other — it creates an unexpected closeness",
+      "Look for outdoor seasonal rinks at landmarks or in scenic settings where the backdrop adds to the magic"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Amusement Park or Carnival",
+    "duration": "4-6 hours",
+    "cost": "$$$",
+    "category": "Classic",
+    "tags": ["Fun", "Outdoor"],
+    "img": "amusement-park.webp",
+    "description": "Embrace your inner child with rides, games, and classic fair food — guaranteed smiles and shared memories.",
+    "enhancements": [
+      "Make a shared bucket list of everything you want to do before you leave and cross each item off together",
+      "Allocate a budget for carnival games and actually go for the big prize — strategy, teamwork, and a stuffed animal are all on the line",
+      "Try the most terrifying ride first while your nerves are fresh and your courage is at its highest",
+      "End the day with the Ferris wheel at dusk for the best possible view and a quiet moment above all the noise"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Zoo or Aquarium Visit",
+    "duration": "3-5 hours",
+    "cost": "$$",
+    "category": "Classic",
+    "tags": ["Fun", "Outdoor"],
+    "img": "aquarium.webp",
+    "description": "Spend the day exploring wildlife and marine life together, sparking wonder and plenty of conversation.",
+    "enhancements": [
+      "Download the zoo or aquarium's app before you go and plan your visit around two or three feeding or keeper talks",
+      "Give each person a secret 'spirit animal' assignment at the start and reveal your reasoning at the end of the day",
+      "Take photos of each other next to animals and caption them with the most absurd commentary you can think of",
+      "Book a behind-the-scenes tour or animal encounter if available — the extra cost is always worth the access it gives you"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Museum Visit",
+    "duration": "2-4 hours",
+    "cost": "$$",
+    "category": "Classic",
+    "tags": ["Cultural", "Indoor"],
+    "img": "science-museum.webp",
+    "description": "Explore a local history, science, or natural history museum — there's always something new to discover and debate.",
+    "enhancements": [
+      "Pick one exhibit each to guide the other through — spend 20 minutes playing tour guide on a subject you find fascinating",
+      "Visit the museum gift shop and each pick the strangest or most charming item you'd actually want to own",
+      "Look for a guided tour or a featured talk happening on the day and work it into your visit",
+      "Check the museum's upcoming special exhibitions and book tickets for a future visit while you're still in the building"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Go-Kart Racing",
+    "duration": "2-3 hours",
+    "cost": "$$",
+    "category": "Classic",
+    "tags": ["Active", "Indoor"],
+    "img": "go-kart.webp",
+    "description": "A fun, competitive, and adrenaline-pumping activity — may the best driver (and trash talker) win.",
+    "enhancements": [
+      "Book a multi-heat session rather than a single race so there's time to learn the track and genuinely improve your lap times",
+      "Give your kart a name before the race starts and refer to it exclusively by that name for the entire session",
+      "Add a wager — the loser buys dinner, picks the next activity, or has to cook a meal for the winner",
+      "Find an outdoor karting track if possible — the fresh air and higher speeds make it a considerably more exhilarating experience"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Concert Date",
+    "duration": "3-5 hours",
+    "cost": "$$$",
+    "category": "Classic",
+    "tags": ["Fun", "Indoor"],
+    "img": "concert.webp",
+    "description": "See a live performance by a band or artist you both enjoy — there's nothing like sharing great music in person.",
+    "enhancements": [
+      "Make a playlist of the artist's deep cuts and less obvious tracks to listen to on the way so you're not just singing the hits",
+      "Arrive early enough to get a feel for the venue, grab a drink without rushing, and catch the support act",
+      "Buy a piece of merchandise you'll actually wear or use — it becomes a lasting marker of the specific night",
+      "Plan something low-key for after the show so the energy can decompress naturally — late-night food or a quiet bar"
+    ]
+  },
+
+  {
+    "id": 51,
+    "title": "Axe Throwing",
+    "duration": "2-3 hours",
+    "cost": "$$",
+    "category": "Quirky",
+    "tags": ["Active", "Indoor"],
+    "img": "axe-throwing.webp",
+    "description": "A surprisingly fun and stress-relieving activity that is definitely out of the ordinary — beginners welcome.",
+    "enhancements": [
+      "Ask the coach to teach you two different throwing techniques and practice each one before you start competing",
+      "Set up a tournament bracket with multiple rounds and an official champion crown at the end",
+      "Shout a dramatic battle cry before each throw — it's objectively funnier and somehow actually helps",
+      "Follow the session with a burger and a beer at a nearby spot and relive every triumphant bullseye in detail"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Escape Room",
+    "duration": "1-2 hours",
+    "cost": "$$",
+    "category": "Quirky",
+    "tags": ["Fun", "Indoor"],
+    "img": "escape-room.webp",
+    "description": "Work together to solve puzzles and escape a themed room within a time limit — a great test of teamwork.",
+    "enhancements": [
+      "Debrief the entire experience over dinner afterward — discuss every puzzle, who cracked what, and what stumped you both",
+      "Choose a theme that matches a shared interest — horror, mystery, sci-fi — so the narrative actually engages you both",
+      "Set a personal rule to use as few hints as possible, even under pressure — the challenge is the point",
+      "Try a harder difficulty level than you think you can handle — struggling together is far more interesting than breezing through"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Cat or Dog Cafe Visit",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "Quirky",
+    "tags": ["Cozy", "Indoor"],
+    "img": "cat-cafe.webp",
+    "description": "Spend time with adorable animals while enjoying a coffee or snack — petting therapy meets cafe culture.",
+    "enhancements": [
+      "Give each animal you meet an elaborate name and backstory and update each other on your characters throughout the visit",
+      "Order something off the cafe menu you wouldn't normally try — the unusual setting calls for an unusual order",
+      "Agree in advance on a specific animal to be the 'star' of the visit and photograph them exclusively for a themed photo set",
+      "If you've been talking about getting a pet together, visit the cafe as a low-commitment way to explore the conversation"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Themed Pop-Up Bar",
+    "duration": "2-3 hours",
+    "cost": "$$",
+    "category": "Quirky",
+    "tags": ["Fun", "Indoor"],
+    "img": "barcade.webp",
+    "description": "Look for temporary, highly-themed experiences that are often interactive and way more memorable than a regular night out.",
+    "enhancements": [
+      "Lean into the theme fully — dress the part so you're not the people in the crowd who clearly didn't try",
+      "Arrive when it opens to avoid the queue and get the full experience before it gets crowded",
+      "Order a themed cocktail you'd never normally choose and document every detail — these places don't stay around long",
+      "Keep an eye on pop-up event calendars and book as soon as something interesting opens — they sell out fast"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "DIY Pottery Painting",
+    "duration": "2-3 hours",
+    "cost": "$$",
+    "category": "Quirky",
+    "tags": ["Creative", "Indoor"],
+    "img": "pottery-class.webp",
+    "description": "Go to a studio where you can paint pottery, make candles, or try another craft — leave with something you made together.",
+    "enhancements": [
+      "Paint something for the other person rather than for yourself — a mug, a bowl, or a small plate makes a lasting personal gift",
+      "Set a theme for both pieces before you start — same color palette, same subject, or matching designs — and compare results",
+      "Take your time and treat it like a proper creative session rather than rushing to finish — the process is the date",
+      "Frame the finished pieces as a set once they're fired and display them somewhere you'll both see them every day"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Ghost Tour",
+    "duration": "2-3 hours",
+    "cost": "$$",
+    "category": "Quirky",
+    "tags": ["Adventurous", "Outdoor"],
+    "img": "haunted-house.webp",
+    "description": "Explore the spooky side of your city with a guided ghost tour or haunted history walk after dark.",
+    "enhancements": [
+      "Research the tour's locations beforehand and come armed with one additional haunting fact about each stop to share with the group",
+      "Bring a decent camera and try to capture atmospheric shots at each location — it adds a creative layer to the evening",
+      "Find a late-night bar or cafe nearby to decompress after the tour and debate which story was the most unsettling",
+      "Extend the evening by watching a horror film set in the same city or era when you get home — keep the atmosphere going"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Arcade Bar",
+    "duration": "2-4 hours",
+    "cost": "$$",
+    "category": "Quirky",
+    "tags": ["Playful", "Indoor"],
+    "img": "barcade.webp",
+    "description": "Play classic arcade games and pinball while enjoying drinks in a nostalgic setting — friendly competition guaranteed.",
+    "enhancements": [
+      "Set up a custom mini-tournament — pick five games, track scores across all of them, and crown a winner at the end",
+      "Only play games that neither of you has played before so you're both learning on equal footing",
+      "Find the machine with the all-time high score on display and make it your shared mission to beat it before the night ends",
+      "Pair the arcade with a nearby diner or late-night food spot afterward to keep the 80s theme alive"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Comedy Show or Open Mic",
+    "duration": "2-3 hours",
+    "cost": "$$",
+    "category": "Quirky",
+    "tags": ["Fun", "Indoor"],
+    "img": "comedy-club.webp",
+    "description": "Discover new talent and share some laughs at a local comedy show, open mic night, or improv performance.",
+    "enhancements": [
+      "Sit near the front if you dare — the best energy in the room is always closest to the performers",
+      "Discuss each act honestly as they perform — low whispered commentary is half the fun of open mic nights",
+      "Look for shows that mix formats — stand-up, improv, and musical comedy back to back — for maximum variety in one evening",
+      "Find out if any of the performers have a podcast, special, or social presence and follow their career from that night forward"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Visit a Unique Museum",
+    "duration": "2-3 hours",
+    "cost": "$$",
+    "category": "Quirky",
+    "tags": ["Cultural", "Indoor"],
+    "img": "unique-museum.webp",
+    "description": "Think beyond the typical — a museum of curiosities, a niche local collection, or a genuinely weird landmark.",
+    "enhancements": [
+      "Each pick your single favorite and single least favorite exhibit and explain your choices to each other over coffee afterward",
+      "Challenge each other to find the most unusual artifact in the entire museum and present your case for why it wins",
+      "Read every placard and audio guide — niche museums reward the people who take the time to actually engage with the content",
+      "Look for the gift shop item that most perfectly sums up the museum's entire identity and buy it as a souvenir"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Drag Show or Burlesque Performance",
+    "duration": "3-4 hours",
+    "cost": "$$",
+    "category": "Quirky",
+    "tags": ["Fun", "Indoor"],
+    "img": "drag-show.webp",
+    "description": "Enjoy a vibrant, entertaining, and often hilarious show — great energy, bold performances, and unforgettable moments.",
+    "enhancements": [
+      "Tip the performers generously throughout the show — it's part of the culture and directly supports the artists",
+      "Arrive early to get a good table and soak in the atmosphere as the room fills and the energy builds before showtime",
+      "Dress up for the occasion — the crowd is always fabulous and the performers genuinely appreciate the effort",
+      "Learn the names of two or three performers beforehand and follow their work after the show to stay connected to the scene"
+    ]
+  },
+
+  {
+    "id": 61,
+    "title": "Coffee or Tea Date",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "First Date",
+    "tags": ["Casual", "Indoor"],
+    "img": "tea-date.webp",
+    "description": "The classic first date for a reason — casual, just long enough to connect, and easy to extend if it's going well.",
+    "enhancements": [
+      "Choose a cafe with interesting design or a clear personality — the environment gives you something natural to talk about",
+      "Order something slightly adventurous off the menu rather than your usual — it signals openness and gives you something to discuss",
+      "Come with two or three genuine questions you actually want to know the answers to rather than relying on small talk",
+      "If the conversation is going well, suggest a short walk nearby — extending the date without committing to a full second location"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Walk in a Park or Botanical Garden",
+    "duration": "1-2 hours",
+    "cost": "Free",
+    "category": "First Date",
+    "tags": ["Relaxed", "Outdoor"],
+    "img": "park.webp",
+    "description": "A relaxed setting that allows for movement and easy conversation without the pressure of sitting face-to-face.",
+    "enhancements": [
+      "Download a plant identification app before you go and use it as a shared activity to break any potential awkwardness",
+      "End the walk at a nearby cafe or juice bar so you have a natural second 'location' if the connection is there",
+      "Pick a botanical garden over a regular park — it's more structured, more interesting, and gives you more to talk about",
+      "Go at a time of day when the light is beautiful — early morning or late afternoon makes even a simple walk feel elevated"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Drinks at a Casual Bar",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "First Date",
+    "tags": ["Casual", "Indoor"],
+    "img": "aperitif.webp",
+    "description": "Choose a place with a good vibe but not too loud — somewhere you can actually hear each other talk.",
+    "enhancements": [
+      "Sit at the bar rather than a table — the setting is more dynamic and the bartender occasionally becomes part of the conversation",
+      "Choose a bar with an interesting concept — a natural wine bar, a craft beer tap room — so the venue itself is a talking point",
+      "Order something different from your usual and ask them to do the same — it reveals character and gives you something to bond over",
+      "Limit yourself to two drinks so the evening stays light, clear-headed, and easy to step away from if needed"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Ice Cream or Dessert Date",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "First Date",
+    "tags": ["Sweet", "Outdoor"],
+    "img": "ice-cream.webp",
+    "description": "Sweet, simple, and a surprisingly good way to gauge someone's personality — what you order says a lot.",
+    "enhancements": [
+      "Walk while you eat rather than standing outside — it removes any awkward face-to-face pressure and keeps energy light",
+      "Suggest they pick your flavor and you pick theirs — it's playful, low-stakes, and sparks an immediate conversation",
+      "Pick a spot with unusual flavors neither of you has tried and commit to ordering something neither of you would normally choose",
+      "End the walk at a viewpoint or a bench somewhere nice so the date has a gentle, unhurried close"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Bookstore Browse & Coffee",
+    "duration": "2-3 hours",
+    "cost": "$",
+    "category": "First Date",
+    "tags": ["Relaxed", "Indoor"],
+    "img": "bookstore-2.webp",
+    "description": "Combines a shared love of reading with a low-pressure environment — see what they pick up and start a conversation from there.",
+    "enhancements": [
+      "Browse separately for 15 minutes and then find each other — what they picked up while alone tells you a lot",
+      "Each pick out one book you'd genuinely recommend to the other and explain why over coffee — it's an instant window into who they are",
+      "Spend time in the section they're most drawn to, even if it's not yours — show genuine curiosity about their interests",
+      "Ask the bookseller for a recommendation for a first date read — it's a charming thing to do and usually leads to a great suggestion"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Farmers Market Stroll",
+    "duration": "1-2 hours",
+    "cost": "Free",
+    "category": "First Date",
+    "tags": ["Casual", "Outdoor"],
+    "img": "farmers-market-2.webp",
+    "description": "Plenty to see and sample, but no pressure to sit and stare at each other — the market keeps the conversation moving.",
+    "enhancements": [
+      "Sample everything that's offered freely — it's interactive, fun, and you're constantly discovering new shared opinions",
+      "Pick up something neither of you has tried before and cook it together at one of your homes as a spontaneous follow-up",
+      "Set a $10 each budget and challenge each other to find the most interesting thing in the entire market",
+      "Grab breakfast or brunch from the market stalls and find a good spot nearby to eat as a natural way to slow the pace down"
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Quick Museum or Gallery Visit",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "First Date",
+    "tags": ["Cultural", "Indoor"],
+    "img": "louvre.webp",
+    "description": "Choose a smaller gallery or a specific exhibit to keep it brief, interesting, and naturally conversational.",
+    "enhancements": [
+      "Focus on a single room or exhibit rather than trying to see the whole space — depth over breadth makes for better conversation",
+      "Ask each other which piece you'd take home if you could — the answer is a genuine personality reveal",
+      "Let them lead you to what interests them most before you share your own reaction — listen first",
+      "Plan coffee or a drink after so there's a natural continuation if the conversation is flowing well"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Daytime Mini Golf",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "First Date",
+    "tags": ["Playful", "Outdoor"],
+    "img": "mini-golf.webp",
+    "description": "Playful, lighthearted, and full of natural breaks in play that make conversation flow without any awkward silences.",
+    "enhancements": [
+      "Maintain a light, generous competitive spirit — be genuinely impressed by their good shots rather than playing it cool",
+      "Invent a small, silly rule together before you start — a tradition that makes the round feel like yours specifically",
+      "Get ice cream or a snack from a nearby spot after the round so the date has a natural, relaxed second chapter",
+      "Choose a course with character — a quirky theme or a scenic setting — rather than the nearest available option"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Casual Brunch or Lunch",
+    "duration": "1-2 hours",
+    "cost": "$",
+    "category": "First Date",
+    "tags": ["Casual", "Indoor"],
+    "img": "brunch.webp",
+    "description": "Less formal than dinner and easier to fit into a busy schedule — daytime energy keeps things light and easy.",
+    "enhancements": [
+      "Choose a restaurant with an open kitchen or an interesting concept — something to talk about beyond the food itself",
+      "Order something to share in addition to your own plates so there's a reason to lean across the table",
+      "Resist the urge to fill every silence — daytime dates allow for a more relaxed, less performative conversation pace",
+      "If it's going well, walk to a nearby spot for coffee afterward rather than ending the date at the restaurant check"
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Dog Park Visit",
+    "duration": "1-2 hours",
+    "cost": "Free",
+    "category": "First Date",
+    "tags": ["Casual", "Outdoor"],
+    "img": "dog-park.webp",
+    "description": "A great way to see how someone interacts with animals — the dogs do half the social work and provide endless conversation.",
+    "enhancements": [
+      "Give every dog you meet an elaborate name and occupation and maintain those fictional identities for the rest of the visit",
+      "Bring dog treats if allowed — you'll make instant friends with every dog in the park, which is both charming and an icebreaker",
+      "Observe how they interact with unfamiliar dogs and their owners — it tells you more about someone than any question would",
+      "Follow the park visit with coffee nearby so the date has a clear two-part structure without feeling forced"
+    ]
+  },
+
+  {
+    "id": 71,
+    "title": "Weekend Getaway",
+    "duration": "2-3 days",
+    "cost": "$$$$",
+    "category": "Anniversary",
+    "tags": ["Romantic", "Outdoor"],
+    "img": "road-trip.webp",
+    "description": "A short trip to a nearby city, a cozy cabin, or a charming B&B — distance from routine is its own kind of romance.",
+    "enhancements": [
+      "Leave your laptops at home and set an out-of-office before you go — the getaway only works if you're actually away",
+      "Book one activity you'd normally talk yourselves out of — the splurge, the experience, the reservation you never make",
+      "Build in one unscheduled afternoon with no plan at all — some of the best moments happen when you're not trying",
+      "Write each other a short letter before the trip sharing what you're looking forward to and exchange them when you arrive"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Recreate Your First Date",
+    "duration": "3-5 hours",
+    "cost": "$$",
+    "category": "Anniversary",
+    "tags": ["Romantic", "Indoor"],
+    "img": "anniversary-date.webp",
+    "description": "Go back to where it all began, but add a special element like a nicer meal afterward or a thoughtful, personal gift.",
+    "enhancements": [
+      "Each write down your honest memory of the first date beforehand and compare — the differences are often the most revealing part",
+      "Order exactly what you ordered the first time if you can remember — the specificity is part of the charm",
+      "Take a photo in the same spot as the first date and add it to whatever documentation you have from that night",
+      "Plan a small upgrade at the end of the evening — the same neighborhood but a nicer bar, or the same cuisine but a better restaurant"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Hot Air Balloon Ride",
+    "duration": "3-4 hours",
+    "cost": "$$$$",
+    "category": "Anniversary",
+    "tags": ["Romantic", "Outdoor"],
+    "img": "hot-air-balloon.webp",
+    "description": "A truly unforgettable and romantic experience — drift above the landscape together with breathtaking views in every direction.",
+    "enhancements": [
+      "Book an early morning flight for the clearest light and most still air conditions — the sunrise from altitude is extraordinary",
+      "Arrange for a bottle of champagne to be waiting at the landing site as many operators do traditionally",
+      "Bring a good camera rather than relying entirely on your phone — the shots from altitude are worth the extra effort",
+      "Book a celebratory brunch at a scenic spot nearby afterward so the whole morning feels like one continuous special occasion"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Couples Spa Day",
+    "duration": "3-5 hours",
+    "cost": "$$$$",
+    "category": "Anniversary",
+    "tags": ["Relaxed", "Indoor"],
+    "img": "spa-day.webp",
+    "description": "Relax and rejuvenate together with massages and treatments designed to help you both slow down and reconnect.",
+    "enhancements": [
+      "Arrive 30 minutes before your treatments to use the facilities together — hydrotherapy, steam rooms, and pools before the main event",
+      "Book matching treatments so you're experiencing the same thing simultaneously rather than at separate times",
+      "Resist the urge to fill the post-treatment time with plans — let the relaxation continue naturally with no agenda",
+      "Pre-arrange a light lunch or afternoon tea at the spa so you don't have to leave the atmosphere before you're ready"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Private Chef Experience",
+    "duration": "3-4 hours",
+    "cost": "$$$$",
+    "category": "Anniversary",
+    "tags": ["Elegant", "Indoor"],
+    "img": "private-chef.webp",
+    "description": "Hire a chef to cook a special multi-course meal at home, or attend a high-end chef's table for an intimate culinary experience.",
+    "enhancements": [
+      "Brief the chef in advance on meaningful details — your first meal together, a place you love, a dish with a story — and let them build from there",
+      "Set the table properly with flowers and candles so the environment matches the quality of the food",
+      "Ask the chef to walk you through each course as they serve it — the explanation makes each dish an event in itself",
+      "Pair the evening with a wine you've been saving for a special occasion — this is exactly that occasion"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Personalized Scavenger Hunt",
+    "duration": "3-5 hours",
+    "cost": "$$",
+    "category": "Anniversary",
+    "tags": ["Romantic", "Outdoor"],
+    "img": "scavenger-hunt.webp",
+    "description": "Create a scavenger hunt around places meaningful to your relationship, ending with a special surprise that only you could give.",
+    "enhancements": [
+      "Incorporate photos, inside jokes, and specific memories into each clue so every location feels genuinely meaningful",
+      "Enlist a friend or two to be 'stationed' at a clue location to hand off the next hint in person",
+      "Make the final destination a place that holds particular significance — where you had a breakthrough conversation, your favorite view",
+      "End with a private moment rather than a group reveal — write a letter or prepare a heartfelt speech for when they arrive"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Luxury Glamping",
+    "duration": "2-3 days",
+    "cost": "$$$$",
+    "category": "Anniversary",
+    "tags": ["Romantic", "Outdoor"],
+    "img": "glamping.webp",
+    "description": "Elevate camping with a comfortable, stylish, and unique outdoor stay — all the romance of nature, none of the roughing it.",
+    "enhancements": [
+      "Bring a curated selection of board games, a shared playlist, and a bottle of something special for the evenings by the fire",
+      "Plan one active day activity — a hike, a kayak, a horse ride — and one completely unscheduled day with nowhere to be",
+      "Watch the sunrise together on the first morning — set an alarm and make it non-negotiable, even if you're tired",
+      "Bring a journal and write a shared entry each morning about the previous day while the coffee is brewing"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Concert or Show of a Lifetime",
+    "duration": "4-6 hours",
+    "cost": "$$$$",
+    "category": "Anniversary",
+    "tags": ["Fun", "Indoor"],
+    "img": "music-concert.webp",
+    "description": "See a bucket-list band, a major Broadway show, or a unique performance that you will both remember for years to come.",
+    "enhancements": [
+      "Upgrade to the best seats you can genuinely afford — proximity to the stage transforms the experience entirely",
+      "Make a full evening of it with dinner beforehand and drinks after so the show sits at the center of a long, celebratory night",
+      "Buy a piece of official merchandise as a physical marker of the specific night — it means more than you'd expect",
+      "Write down your reaction to the performance immediately after while it's still fresh — your future selves will treasure it"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Winery or Brewery Tour with Dinner",
+    "duration": "5-8 hours",
+    "cost": "$$$",
+    "category": "Anniversary",
+    "tags": ["Elegant", "Outdoor"],
+    "img": "winery.webp",
+    "description": "Spend a day exploring local vineyards or breweries, tasting your way through the day and ending with a special celebratory meal.",
+    "enhancements": [
+      "Book a private tour rather than joining a group so you can ask questions at your own pace without feeling rushed",
+      "Pick up a bottle of your joint favorite to take home and save for your next anniversary as a marker of both occasions",
+      "Research the region's food pairings before you go and order deliberately at dinner based on what you tasted during the tour",
+      "Photograph the label of every pour you loved — it becomes a beautiful record of the day and helps you remember what to buy again"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Memory Jar Date",
+    "duration": "2-3 hours",
+    "cost": "$",
+    "category": "Anniversary",
+    "tags": ["Romantic", "Indoor"],
+    "img": "scrapbook.webp",
+    "description": "Write down your favorite memories, inside jokes, and future dreams together, seal them in a jar, and share a special meal.",
+    "enhancements": [
+      "Organize your slips by category — funniest memory, proudest moment, biggest adventure, future dream — and read a few from each",
+      "Use beautiful paper and a good pen rather than torn notebook scraps — the small details make it feel ceremonial",
+      "Seal the jar and agree on a date in the future to open it together — one year, five years, ten years",
+      "Cook or order from a restaurant that holds meaning for your relationship so the meal connects to the memories you're writing down"
+    ]
+  },
+
+  {
+    "id": 81,
+    "title": "Indoor Rock Climbing",
+    "duration": "2-3 hours",
+    "cost": "$$",
+    "category": "Adventurous",
+    "tags": ["Active", "Indoor"],
+    "img": "rock-climbing.webp",
+    "description": "Challenge yourselves physically and mentally on the wall, with built-in encouragement and real problem-solving required.",
+    "enhancements": [
+      "Book a short intro session with an instructor if either of you is new — good technique makes the whole experience more enjoyable",
+      "Take turns belaying each other and focus on giving genuinely useful feedback rather than just cheerleading",
+      "Set a specific goal together — top a particular route, complete a circuit, improve your grade — so there's something to work toward",
+      "Follow the climb with a protein-rich meal and use the post-session energy to debrief on your best and hardest moments"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "White Water Rafting",
+    "duration": "4-6 hours",
+    "cost": "$$$",
+    "category": "Adventurous",
+    "tags": ["Active", "Outdoor"],
+    "img": "rafting.webp",
+    "description": "For those seeking a real thrill — a guided rafting trip through rapids offers excitement and demands teamwork.",
+    "enhancements": [
+      "Listen carefully to the guide's safety briefing and ask questions — knowledge reduces anxiety and increases enjoyment on the water",
+      "Bring a waterproof camera or a GoPro mount for your helmet to capture the moments you'll want to relive",
+      "Choose a trip rating that genuinely challenges you both rather than the easiest available option — the bigger the rapids, the better the story",
+      "Book a campfire dinner or riverside lunch as part of the package if the operator offers one — it rounds the day out perfectly"
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Zip-lining Adventure",
+    "duration": "3-5 hours",
+    "cost": "$$$",
+    "category": "Adventurous",
+    "tags": ["Active", "Outdoor"],
+    "img": "zipline.webp",
+    "description": "Soar through the trees or over scenic landscapes for an exhilarating rush — screaming optional but encouraged.",
+    "enhancements": [
+      "Look for a multi-line course rather than a single zip — the progression builds confidence and delivers escalating thrills",
+      "Go first if one of you is more hesitant — watching the other person launch into the air from the platform is actually more terrifying than doing it yourself",
+      "Research the location specifically for the views rather than just the activity — the best zip lines cross gorges, waterfalls, or forest canopies",
+      "Book the activity as part of a longer outdoor day so the adrenaline from the zip line carries into hiking, eating, and exploring"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Off-Roading or ATV Riding",
+    "duration": "3-4 hours",
+    "cost": "$$$",
+    "category": "Adventurous",
+    "tags": ["Active", "Outdoor"],
+    "img": "off-roading.webp",
+    "description": "Explore rugged terrain and get your adrenaline pumping on an ATV or in an off-road vehicle through wild landscapes.",
+    "enhancements": [
+      "Choose a route that includes a scenic lookout or a point of interest so the ride has a destination, not just a track",
+      "Take a guided tour on your first trip rather than going independently — the guide knows the best terrain and keeps it safe",
+      "Bring a change of clothes — you will get muddy, and having clean clothes to change into makes the post-adventure part much more comfortable",
+      "Document the route and conditions so you can repeat your favorite sections or progressively tackle harder terrain on future trips"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Scuba Diving or Snorkeling",
+    "duration": "3-5 hours",
+    "cost": "$$$",
+    "category": "Adventurous",
+    "tags": ["Active", "Outdoor"],
+    "img": "diving.webp",
+    "description": "Discover the underwater world together — whether a local lake or a tropical reef, it feels like another planet.",
+    "enhancements": [
+      "Research the specific marine life you're likely to encounter beforehand so you can identify what you're seeing in real time",
+      "If you're both new to scuba, take a discover scuba or pool session first so your first open water dive isn't also your first time with the equipment",
+      "Bring an underwater camera or rent a GoPro housing to capture what you saw and watch the footage together over dinner",
+      "Choose a site known for something specific — a wreck, a particular species, a coral formation — rather than a generic dive site"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Tandem Skydiving",
+    "duration": "3-5 hours",
+    "cost": "$$$$",
+    "category": "Adventurous",
+    "tags": ["Active", "Outdoor"],
+    "img": "skydiving.webp",
+    "description": "The ultimate thrill-seeking date — conquer a fear together and share an experience you genuinely cannot describe to others.",
+    "enhancements": [
+      "Buy the video package — it's expensive but the footage from freefall is absolutely irreplaceable and you will watch it many times",
+      "Go on a clear day with good visibility so the view at altitude is as extraordinary as the jump itself",
+      "Talk about how you're both feeling in the moments before the jump — the honesty under pressure creates real intimacy",
+      "Plan a celebratory dinner afterward and spend the evening reliving every second — the adrenaline keeps the energy high for hours"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Canyoning or Rappelling",
+    "duration": "4-6 hours",
+    "cost": "$$$",
+    "category": "Adventurous",
+    "tags": ["Active", "Outdoor"],
+    "img": "canyon.webp",
+    "description": "Descend down waterfalls or rock faces in a mix of hiking, climbing, and swimming — wildly fun and surprisingly bonding.",
+    "enhancements": [
+      "Choose a route that includes at least one significant waterfall descent — it's the element that makes canyoning genuinely unlike anything else",
+      "Listen carefully to every safety instruction and don't let ego push you beyond your actual ability — the guide knows the route",
+      "Wear proper water shoes rather than just any trainers — the right footwear makes technical sections significantly easier and safer",
+      "Book with a small group tour rather than a large one so you're not waiting at every section and can maintain momentum"
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Surfing or Paddleboarding Lessons",
+    "duration": "2-4 hours",
+    "cost": "$$",
+    "category": "Adventurous",
+    "tags": ["Active", "Outdoor"],
+    "img": "surfing.webp",
+    "description": "Learn a new water sport together, embracing the challenge, the wipeouts, and the ocean in equal measure.",
+    "enhancements": [
+      "Book a private two-person lesson rather than a group class so the instructor can focus entirely on your specific progress",
+      "Cheer genuinely and loudly every time the other person stands up — encouragement in the water makes a measurable difference",
+      "Return to the same beach the following week to practice what you learned before the technique fades from muscle memory",
+      "End the session with fish and chips or a beach lunch and debrief every wipeout with the level of seriousness it deserves"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Overnight Backpacking Trip",
+    "duration": "2-3 days",
+    "cost": "$$",
+    "category": "Adventurous",
+    "tags": ["Active", "Outdoor"],
+    "img": "backpacking.webp",
+    "description": "Plan a multi-day hike with camping, immersing yourselves in nature and genuinely relying on each other every step of the way.",
+    "enhancements": [
+      "Divide the planning responsibilities evenly — one person handles navigation and route, the other handles food and cooking equipment",
+      "Leave a full 24-hour buffer of no social media or phone use from the moment you set off — let the trail be the only input",
+      "Bring one luxury item each that you wouldn't normally carry in the backcountry — a good book, a small flask, a real pillow",
+      "Set a shared intention before you leave the trailhead — something you both want to feel or understand by the time you return"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Bungee Jumping",
+    "duration": "2-4 hours",
+    "cost": "$$$",
+    "category": "Adventurous",
+    "tags": ["Active", "Outdoor"],
+    "img": "bungee-jump.webp",
+    "description": "For the truly fearless — a shared leap of faith that will create an unparalleled bond and a story you never stop telling.",
+    "enhancements": [
+      "Jump together if the operator allows it — a synchronized jump adds a layer of shared commitment that amplifies the whole experience",
+      "Buy the video if it's offered — watching your own face in the moment before the jump is as entertaining as the jump itself",
+      "Pick a location with a dramatic setting — above a gorge, a river, or a coastal cliff — so the backdrop matches the scale of what you're doing",
+      "Make a pact beforehand that whoever flinches first has to plan the next date entirely on their own — stakes make it more fun"
+    ]
+  }
+]

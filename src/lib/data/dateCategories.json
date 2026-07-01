@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Simple",
+    "slug": "simple",
+    "subtitle": "Easy, low-key dates perfect for getting to know each other"
+  },
+  {
+    "name": "Outdoorsy",
+    "slug": "outdoorsy",
+    "subtitle": "Active dates for couples who love nature and adventure"
+  },
+  {
+    "name": "Quick",
+    "slug": "quick",
+    "subtitle": "Quick dates perfect for busy schedules"
+  },
+  {
+    "name": "Sophisticated",
+    "slug": "sophisticated",
+    "subtitle": "Elegant dates for special occasions and refined tastes"
+  },
+  {
+    "name": "Classic",
+    "slug": "classic",
+    "subtitle": "Timeless date ideas that never go out of style"
+  },
+  {
+    "name": "Quirky",
+    "slug": "quirky",
+    "subtitle": "Unique and fun dates that create memorable experiences"
+  },
+  {
+    "name": "First Date",
+    "slug": "first-date",
+    "subtitle": "Perfect low-pressure ideas for getting to know someone new"
+  },
+  {
+    "name": "Anniversary",
+    "slug": "anniversary",
+    "subtitle": "Extra special romantic dates for celebrating your love"
+  },
+  {
+    "name": "Adventurous",
+    "slug": "adventurous",
+    "subtitle": "For those who like taking risks in life and love"
+  }
+]

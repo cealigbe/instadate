@@ -1,0 +1,411 @@
+/* ============================================================
+   instadate — Global Styles
+   Typefaces: Figtree (body), Syne Bold (logo)
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Syne:wght@700&display=swap");
+
+/* ── Reset ─────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+img,
+figure,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ── Design Tokens ──────────────────────────────────────────── */
+:root {
+    /* --- Palette --- */
+    --color-sage-50: #e8f2e4;
+    --color-sage-100: #d0e6ca;
+    --color-sage-200: #b2d1aa;
+    --color-sage-300: #8db888;
+    --color-sage-400: #5f9a5a;
+    --color-sage-500: #3d7a38;
+    --color-sage-600: #2a5c26;
+    --color-sage-700: #1e4419;
+    --color-sage-800: #132e10;
+    --color-sage-900: #0a1c08;
+
+    --color-forest: #1a3a2e; /* primary text / dark CTA bg */
+    --color-forest-light: #2a5c46;
+
+    --color-body-bg: #f5f4f0; /* warm off-white page bg */
+    --color-white: #ffffff;
+
+    --color-text-primary: #1a3a2e;
+    --color-text-secondary: #4a6259;
+    --color-text-muted: #7a9488;
+    --color-link: var(--color-forest-light);
+
+    --color-border: rgba(26, 58, 46, 0.15);
+    --color-border-medium: rgba(26, 58, 46, 0.25);
+
+    /* Category card gradients */
+    --grad-simple: linear-gradient(145deg, #b8cec8 0%, #8aaaa4 100%);
+    --grad-outdoorsy: linear-gradient(145deg, #c8d8b0 0%, #93b87a 100%);
+    --grad-quick: linear-gradient(145deg, #f4dfa0 0%, #d9b45c 100%);
+    --grad-sophisticated: linear-gradient(145deg, #f2b8a8 0%, #d98878 100%);
+    --grad-classic: linear-gradient(145deg, #dbc8ee 0%, #b898d0 100%);
+    --grad-quirky: linear-gradient(145deg, #e8c4bc 0%, #d09098 100%);
+    --grad-adventurous: linear-gradient(145deg, #b8d8d0 0%, #50d0c0 100%);
+    --grad-first-date: linear-gradient(145deg, #b8c8d8 0%, #7898b8 100%);
+    --grad-anniversary: linear-gradient(145deg, #f0bcd4 0%, #d890b0 100%);
+    --grad-surprise: linear-gradient(145deg, #aacce5 0%, #7799c6 100%);
+
+    /* Icon badge colors per category */
+    --badge-simple: #2a5a52;
+    --badge-outdoorsy: #3a6a30;
+    --badge-quick: #7a5010;
+    --badge-sophisticated: #8a2818;
+    --badge-classic: #5a3090;
+    --badge-quirky: #982840;
+    --badge-adventurous: #3d8f8f;
+    --badge-first-date: #2a4878;
+    --badge-anniversary: #982060;
+    --badge-surprise: #223380;
+
+    /* --- Typography --- */
+    --font-sans: "Figtree", system-ui, -apple-system, sans-serif;
+    --font-logo: "Syne", sans-serif;
+
+    --text-xs: 0.75rem; /* 12px */
+    --text-sm: 0.875rem; /* 14px */
+    --text-base: 1rem; /* 16px */
+    --text-lg: 1.125rem; /* 18px */
+    --text-xl: 1.25rem; /* 20px */
+    --text-2xl: 1.5rem; /* 24px */
+    --text-3xl: 2rem; /* 32px */
+    --text-4xl: 2.5rem; /* 40px */
+
+    --weight-normal: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+
+    --leading-tight: 1.2;
+    --leading-snug: 1.4;
+    --leading-normal: 1.6;
+    --leading-loose: 1.8;
+
+    /* --- Spacing --- */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+
+    /* --- Radii --- */
+    --radius-sm: 0.375rem; /* 6px  */
+    --radius-md: 0.625rem; /* 10px */
+    --radius-lg: 0.875rem; /* 14px */
+    --radius-xl: 1.25rem; /* 20px */
+    --radius-2xl: 1.5rem; /* 24px */
+    --radius-full: 9999px;
+
+    /* --- Shadows --- */
+    --shadow-sm:
+        0 1px 3px rgba(26, 58, 46, 0.08), 0 1px 2px rgba(26, 58, 46, 0.04);
+    --shadow-md:
+        0 4px 12px rgba(26, 58, 46, 0.1), 0 2px 4px rgba(26, 58, 46, 0.06);
+    --shadow-lg:
+        0 8px 24px rgba(26, 58, 46, 0.13), 0 4px 8px rgba(26, 58, 46, 0.07);
+    --shadow-xl:
+        0 16px 40px rgba(26, 58, 46, 0.15), 0 6px 12px rgba(26, 58, 46, 0.08);
+
+    /* --- Transitions --- */
+    --transition-fast: 150ms ease;
+    --transition-base: 220ms ease;
+    --transition-smooth: 320ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* --- Layout --- */
+    --page-max-width: 1200px;
+    --page-padding: clamp(1rem, 4vw, 3rem);
+    --nav-height: 64px;
+}
+
+/* ── View Transition ────────────────────────────────────────── */
+
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-group(*),
+::view-transition-old(*),
+::view-transition-new(*) {
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards; /* important if you mix durations */
+    animation-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+/* ── Base ───────────────────────────────────────────────────── */
+body {
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    font-weight: var(--weight-normal);
+    line-height: var(--leading-normal);
+    color: var(--color-text-primary);
+    background-color: var(--color-body-bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin-block: 0.5rem 1rem;
+    line-height: 1.2;
+}
+
+p {
+    margin-block: 0 1.5rem;
+    line-height: 1.6;
+}
+
+ol,
+ul,
+dl {
+    margin-block: 0 1rem;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid var(--color-border-medium);
+    margin-block: var(--space-6);
+}
+
+/* ── Page shell ─────────────────────────────────────────────── */
+.page-wrapper {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content {
+    flex: 1;
+    width: 100%;
+    max-width: var(--page-max-width);
+    margin-inline: auto;
+    padding-inline: var(--page-padding);
+    padding-block: var(--space-10);
+}
+
+/* ── Header gradient zone ───────────────────────────────────── */
+.header-zone {
+    background: linear-gradient(
+        180deg,
+        var(--color-sage-100) 0%,
+        var(--color-body-bg) 100%
+    );
+}
+
+/* ── Typography helpers ─────────────────────────────────────── */
+.logo-text {
+    font-family: var(--font-logo);
+    font-weight: 700;
+    font-size: var(--text-2xl);
+    color: var(--color-forest);
+    letter-spacing: -0.02em;
+}
+
+.page-title {
+    font-size: clamp(var(--text-2xl), 4vw, var(--text-3xl));
+    font-weight: var(--weight-bold);
+    color: var(--color-forest);
+    line-height: var(--leading-tight);
+}
+
+.page-subtitle {
+    font-size: calc(var(--text-base) * 1.1);
+    color: var(--color-text-secondary);
+    line-height: var(--leading-normal);
+    max-width: 75ch;
+    margin-inline: auto;
+    margin-block-end: 0.1rem;
+}
+
+.section-heading {
+    font-size: var(--text-2xl);
+    font-weight: var(--weight-bold);
+    color: var(--color-forest);
+}
+
+/* ── Link interactions ──────────────────────────────────────── */
+.link-interactive {
+    transition: opacity var(--transition-fast);
+    text-underline-offset: 3px;
+}
+
+.link-interactive:hover,
+.link-interactive:focus-visible {
+    opacity: 0.8;
+    text-decoration: underline;
+    outline: none;
+}
+
+/* ── Button base ────────────────────────────────────────────── */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    font-family: var(--font-sans);
+    font-weight: var(--weight-semibold);
+    font-size: var(--text-sm);
+    line-height: 1;
+    border-radius: var(--radius-lg);
+    padding: var(--space-3) var(--space-5);
+    cursor: pointer;
+    transition:
+        opacity var(--transition-fast),
+        transform var(--transition-fast);
+    user-select: none;
+    white-space: nowrap;
+}
+
+.btn:hover,
+.btn:focus-visible {
+    opacity: 0.8;
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.btn-primary {
+    background-color: var(--color-forest);
+    color: var(--color-white);
+    border: 1.5px solid var(--color-forest);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--color-forest);
+    border: 1.5px solid var(--color-forest);
+}
+
+.btn-ghost {
+    background-color: transparent;
+    color: var(--color-text-secondary);
+    border: 1.5px solid var(--color-border-medium);
+}
+
+.btn-circle {
+    padding: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: var(--radius-full);
+    flex-shrink: 0;
+}
+
+.btn-lg {
+    font-size: var(--text-base);
+    padding: var(--space-4) var(--space-8);
+    border-radius: var(--radius-xl);
+    gap: var(--space-3);
+}
+
+/* ── Metadata chip / pill ───────────────────────────────────── */
+.chip {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    background-color: var(--color-sage-50);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-medium);
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border-medium);
+    border-radius: var(--radius-full);
+    padding: 0.25rem 0.625rem;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.chip svg {
+    flex-shrink: 0;
+    opacity: 0.75;
+    width: 12px;
+    aspect-ratio: 1;
+}
+
+/* ── Focus visible ──────────────────────────────────────────── */
+:focus-visible {
+    outline: 2px solid var(--color-sage-500);
+    outline-offset: 3px;
+    border-radius: var(--radius-sm);
+}
+
+/* ── Reduced motion ─────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
