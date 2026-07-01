@@ -15,6 +15,7 @@
 
 <svelte:head>
     <title>{data.date.title} — instadate</title>
+    <meta name="description" content={data.date.title} />
 </svelte:head>
 
 <div class="page-content">

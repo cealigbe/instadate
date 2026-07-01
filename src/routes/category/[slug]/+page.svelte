@@ -19,6 +19,10 @@
 
 <svelte:head>
     <title>{categoryName} Date Ideas — instadate</title>
+    <meta
+        name="description"
+        content="Discover {categoryName} date ideas and find the perfect date night for you and your partner."
+    />
 </svelte:head>
 
 <div class="page-content listing">
