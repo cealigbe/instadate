@@ -3,6 +3,7 @@
   Root layout — loads global styles and renders the Navbar on every page.
 -->
 <script>
+    import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit";
     import "$lib/styles/global.css";
     import favicon from "$lib/assets/favicon.svg";
     import Navbar from "$lib/components/Navbar.svelte";
@@ -24,6 +25,8 @@
             });
         });
     });
+
+    injectSpeedInsights();
 </script>
 
 <svelte:head>
