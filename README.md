@@ -1,6 +1,6 @@
 # instadate
 
-Your go-to source for fresh and fun date ideas.
+### Your go-to source for fresh and fun date ideas.
 
 ![instadate banner](/static/instadate-banner.png)
 
