@@ -4,11 +4,15 @@
 -->
 <script>
     import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit";
+
+    import { injectAnalytics } from "@vercel/analytics/sveltekit";
+
     import "$lib/styles/global.css";
     import favicon from "$lib/assets/favicon.svg";
     import Navbar from "$lib/components/Navbar.svelte";
     import Footer from "$lib/components/Footer.svelte";
     import { page } from "$app/state";
+    import { dev } from "$app/environment";
 
     /** @type {{ children?: import('svelte').Snippet }} */
     let { children } = $props();
@@ -27,6 +31,7 @@
     });
 
     injectSpeedInsights();
+    injectAnalytics({ mode: dev ? "development" : "production" });
 </script>
 
 <svelte:head>
