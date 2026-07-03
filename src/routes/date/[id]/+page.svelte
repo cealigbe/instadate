@@ -5,17 +5,23 @@
   In production, load real data from +page.server.js.
 -->
 <script>
+    import { page } from "$app/state";
     import BackButton from "$lib/components/BackButton.svelte";
     import DateIdea from "$lib/components/DateIdea.svelte";
+    import ShareButton from "$lib/components/ShareButton.svelte";
 
     let { data } = $props();
 
+    let title = $derived(data.date.title);
+    let details = $derived(data.date.details);
+
     let category = $derived(data.date.category);
+    const shareUrl = page.url.origin + `/date/${details?.id}`;
 </script>
 
 <svelte:head>
-    <title>{data.date.title} — instadate</title>
-    <meta name="description" content={data.date.title} />
+    <title>{title} — instadate</title>
+    <meta name="description" content={title} />
 </svelte:head>
 
 <div class="page-content">
@@ -24,12 +30,17 @@
             href="/category/{category?.slug}"
             label="Back to {category?.name} Dates"
         />
+        <ShareButton {title} text={details?.description} url={shareUrl} />
     </header>
     <DateIdea date={data.date.details} />
 </div>
 
 <style>
     header.content-header {
+        display: flex;
+        width: 100%;
         margin-bottom: 2rem;
+        justify-content: space-between;
+        align-items: center;
     }
 </style>

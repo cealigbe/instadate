@@ -4,13 +4,16 @@
   "Back to Home" is shown; "Choose Another Date" CTA is hidden.
 -->
 <script>
+    import { page } from "$app/state";
     import { icons } from "$lib/assets/icons.js";
     import BackButton from "$lib/components/BackButton.svelte";
     import DateIdea from "$lib/components/DateIdea.svelte";
+    import ShareButton from "$lib/components/ShareButton.svelte";
 
     let { data } = $props();
 
     let theDate = $derived(data.date.details);
+    const shareUrl = page.url.origin + `/date/${theDate?.id}`;
 </script>
 
 <svelte:head>
@@ -21,6 +24,11 @@
 <div class="page-content">
     <header class="content-header">
         <BackButton href="/" label="Back to Categories" />
+        <ShareButton
+            title={theDate.title}
+            text={theDate.description}
+            url={shareUrl}
+        />
     </header>
     <DateIdea date={theDate} />
     <footer class="content-footer">
@@ -40,7 +48,11 @@
 
 <style>
     header.content-header {
+        display: flex;
+        width: 100%;
         margin-bottom: 2rem;
+        justify-content: space-between;
+        align-items: center;
     }
     footer.content-footer {
         margin-top: 2rem;
