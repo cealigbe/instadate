@@ -4,12 +4,13 @@
   Accepts an `icon` snippet so callers can pass any Feather SVG.
 -->
 <script>
-    /** @type {{ label?: string, icon?: import('svelte').Snippet }} */
-    let { label = "", icon } = $props();
+    /** @type {{ label?: string, icon?: string, tooltip?: string }} */
+    let { label = "", icon, tooltip = "" } = $props();
 </script>
 
-<span class="chip">
+<span class="chip" title={tooltip}>
     {@html icon}
+    <i class="alt-text">{tooltip}</i>
     {label}
 </span>
 

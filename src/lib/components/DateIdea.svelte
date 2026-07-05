@@ -54,20 +54,40 @@
             <!-- Metadata chips -->
             <div class="detail__chips" aria-label="Date details">
                 {#if date.duration}
-                    <MetadataChip label={date.duration} icon={ficons.clock} />
+                    <MetadataChip
+                        label={date.duration}
+                        icon={ficons.clock}
+                        tooltip="Duration"
+                    />
                 {/if}
 
                 {#if date.cost}
-                    <MetadataChip label={date.cost} icon={ficons.dollarSign} />
+                    <MetadataChip
+                        label={date.cost}
+                        icon={ficons.dollarSign}
+                        tooltip="Cost"
+                    />
                 {/if}
 
                 {#if date.category}
-                    <MetadataChip label={date.category} icon={ficons.tag} />
+                    <MetadataChip
+                        label={date.category}
+                        icon={ficons.tag}
+                        tooltip="Category"
+                    />
                 {/if}
 
                 {#if date.tags.length > 0}
-                    <MetadataChip label={date.tags[0]} icon={ficons.heart} />
-                    <MetadataChip label={date.tags[1]} icon={ficons.mapPin} />
+                    <MetadataChip
+                        label={date.tags[0]}
+                        icon={ficons.heart}
+                        tooltip="Vibe"
+                    />
+                    <MetadataChip
+                        label={date.tags[1]}
+                        icon={ficons.mapPin}
+                        tooltip="Location"
+                    />
                 {/if}
             </div>
 

@@ -35,7 +35,7 @@
 
     <DateCarousel dates={data.category.ideas} {categoryName} />
 
-    <div class="listing__back-cta">
+    <section class="listing__back-cta">
         <a href="/" class="btn btn-primary btn-lg">
             <!-- Feather: arrow-left -->
             <svg
@@ -55,7 +55,7 @@
             >
             Back to Categories
         </a>
-    </div>
+    </section>
 </div>
 
 <style>
