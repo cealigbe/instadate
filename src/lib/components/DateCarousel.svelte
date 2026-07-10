@@ -9,7 +9,7 @@
 -->
 <script>
     import DateCard from "./DateCard.svelte";
-    import ficon from "$lib/assets/feathericons.json";
+    import Ficon from "./Ficon.svelte";
 
     /**
      * @typedef {Object} DateItem
@@ -212,7 +212,7 @@
             aria-label="Previous date"
         >
             <!-- Feather: chevron-left -->
-            {@html ficon.chevronLeft}
+            <Ficon name="chevron-left" size="24" />
         </button>
 
         <!-- Dot indicators -->
@@ -236,7 +236,7 @@
             aria-label="Next date"
         >
             <!-- Feather: chevron-right -->
-            {@html ficon.chevronRight}
+            <Ficon name="chevron-right" size="24" />
         </button>
     </div>
 </section>

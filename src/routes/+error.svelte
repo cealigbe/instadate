@@ -1,5 +1,6 @@
 <script>
     import { page } from "$app/state";
+    import Ficon from "$lib/components/Ficon.svelte";
 </script>
 
 <div class="page-content error">
@@ -9,18 +10,7 @@
 
     <a href="/" class="btn btn-primary btn-lg">
         <!-- Feather: arrow-left -->
-        <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-        >
-            <path d="M15 18l-6-6 6-6"></path>
-        </svg>
+        <Ficon name="arrow-left" size="20" />
         Back to Home
     </a>
 </div>

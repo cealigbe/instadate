@@ -5,11 +5,13 @@
 -->
 <script>
     /** @type {{ label?: string, icon?: string, tooltip?: string }} */
+
+    import Ficon from "./Ficon.svelte";
     let { label = "", icon, tooltip = "" } = $props();
 </script>
 
 <span class="chip" title={tooltip}>
-    {@html icon}
+    <Ficon name={icon} size="12" />
     <i class="alt-text">{tooltip}</i>
     {label}
 </span>

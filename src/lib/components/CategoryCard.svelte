@@ -23,7 +23,7 @@
      * }}
      */
 
-    import featherIcons from "$lib/assets/feathericons.json";
+    import Ficon from "./Ficon.svelte";
 
     let {
         id = "",
@@ -48,7 +48,7 @@
             {@html icon}
         {:else}
             <!-- Feather: star (fallback) -->
-            featherIcons.star
+            <Ficon name="star" size="40" />
         {/if}
     </div>
 

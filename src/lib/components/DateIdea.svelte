@@ -20,7 +20,7 @@
       enhancements: ideas to enhance the date
     */
     import MetadataChip from "./MetadataChip.svelte";
-    import ficons from "$lib/assets/feathericons.json";
+
     import { icons } from "$lib/assets/icons.js";
 
     let { date } = $props();
@@ -56,7 +56,7 @@
                 {#if date.duration}
                     <MetadataChip
                         label={date.duration}
-                        icon={ficons.clock}
+                        icon="clock"
                         tooltip="Duration"
                     />
                 {/if}
@@ -64,7 +64,7 @@
                 {#if date.cost}
                     <MetadataChip
                         label={date.cost}
-                        icon={ficons.dollarSign}
+                        icon="dollar-sign"
                         tooltip="Cost"
                     />
                 {/if}
@@ -72,7 +72,7 @@
                 {#if date.category}
                     <MetadataChip
                         label={date.category}
-                        icon={ficons.tag}
+                        icon="tag"
                         tooltip="Category"
                     />
                 {/if}
@@ -80,12 +80,12 @@
                 {#if date.tags.length > 0}
                     <MetadataChip
                         label={date.tags[0]}
-                        icon={ficons.heart}
+                        icon="heart"
                         tooltip="Vibe"
                     />
                     <MetadataChip
                         label={date.tags[1]}
-                        icon={ficons.mapPin}
+                        icon="map-pin"
                         tooltip="Location"
                     />
                 {/if}

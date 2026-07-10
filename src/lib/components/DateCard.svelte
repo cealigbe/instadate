@@ -28,6 +28,9 @@
      * }}
      */
 
+    import Ficon from "./Ficon.svelte";
+    import MetadataChip from "./MetadataChip.svelte";
+
     let {
         id = "",
         title = "",
@@ -72,65 +75,19 @@
         <div class="date-card__title-row">
             <span class="date-card__title">{title}</span>
             <!-- Feather: chevron-right -->
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="date-card__arrow"
-                aria-hidden="true"
-            >
-                <polyline points="9 18 15 12 9 6" />
-            </svg>
+            <Ficon name="chevron-right" size="16" />
         </div>
 
         <div class="date-card__chips">
             {#if duration}
-                <span class="chip">
-                    <!-- Feather: clock -->
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="12"
-                        height="12"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        aria-hidden="true"
-                        ><circle cx="12" cy="12" r="10" /><polyline
-                            points="12 6 12 12 16 14"
-                        /></svg
-                    >
-                    {duration}
-                </span>
+                <MetadataChip
+                    label={duration}
+                    icon="clock"
+                    tooltip="Duration"
+                />
             {/if}
             {#if cost}
-                <span class="chip">
-                    <!-- Feather: dollar-sign -->
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="12"
-                        height="12"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        aria-hidden="true"
-                        ><line x1="12" y1="1" x2="12" y2="23" /><path
-                            d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
-                        /></svg
-                    >
-                    {cost}
-                </span>
+                <MetadataChip label={cost} icon="dollar-sign" tooltip="Cost" />
             {/if}
         </div>
     </div>

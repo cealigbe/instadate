@@ -1,5 +1,5 @@
 <script>
-    import ficons from "$lib/assets/feathericons.json";
+    import Ficon from "./Ficon.svelte";
 
     let { title, text, url } = $props();
 
@@ -32,7 +32,7 @@
 </script>
 
 <button class="btn share-btn btn-icon btn-ghost" onclick={handleShare}>
-    {@html ficons.share}
+    <Ficon name="share" size="16" />
     <span> Share </span>
 </button>
 
