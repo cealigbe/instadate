@@ -31,7 +31,7 @@
     }
 </script>
 
-<button class="btn share-btn btn-icon btn-ghost" onclick={handleShare}>
+<button class="btn share-btn btn-icon btn-outline" onclick={handleShare}>
     <Ficon name="share" size="16" />
     <span> Share </span>
 </button>

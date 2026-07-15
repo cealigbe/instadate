@@ -191,7 +191,7 @@
     .detail__description {
         font-size: var(--text-base);
         color: var(--color-text-secondary);
-        line-height: var(--leading-loose);
+        line-height: var(--leading-normal);
         margin-block-end: var(--space-2);
     }
 
@@ -200,7 +200,6 @@
         display: flex;
         flex-direction: column;
         gap: var(--space-3);
-        padding-top: var(--space-2);
     }
 
     .detail__ideas-header {
@@ -231,7 +230,8 @@
     }
 
     .detail__idea-item {
-        padding: 0.125rem 0.25rem;
+        padding-bottom: var(--space-1);
+        padding-inline: 0.25rem;
         align-items: baseline;
         font-size: var(--text-sm);
         color: var(--color-text-secondary);

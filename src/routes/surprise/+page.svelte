@@ -8,12 +8,13 @@
     import { icons } from "$lib/assets/icons.js";
     import BackButton from "$lib/components/BackButton.svelte";
     import DateIdea from "$lib/components/DateIdea.svelte";
-    import ShareButton from "$lib/components/ShareButton.svelte";
+    import MoreMenu from "$lib/components/MoreMenu.svelte";
 
     let { data } = $props();
 
     let theDate = $derived(data.date.details);
     const shareUrl = page.url.origin + `/date/${theDate?.id}`;
+    const search = $derived(theDate.search);
 </script>
 
 <svelte:head>
@@ -24,11 +25,7 @@
 <div class="page-content">
     <header class="content-header">
         <BackButton href="/" label="Back to Categories" />
-        <ShareButton
-            title={theDate.title}
-            text={theDate.description}
-            url={shareUrl}
-        />
+        <MoreMenu title={theDate.title} text={theDate?.description} url={shareUrl} {search} />
     </header>
     <DateIdea date={theDate} />
     <footer class="content-footer">

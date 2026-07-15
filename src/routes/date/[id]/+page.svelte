@@ -8,12 +8,15 @@
     import { page } from "$app/state";
     import BackButton from "$lib/components/BackButton.svelte";
     import DateIdea from "$lib/components/DateIdea.svelte";
+    import Ficon from "$lib/components/Ficon.svelte";
     import ShareButton from "$lib/components/ShareButton.svelte";
+    import MoreMenu from "$lib/components/MoreMenu.svelte";
 
     let { data } = $props();
 
     let title = $derived(data.date.title);
     let details = $derived(data.date.details);
+    let search = $derived(details?.search);
 
     let category = $derived(data.date.category);
     const shareUrl = page.url.origin + `/date/${details?.id}`;
@@ -30,7 +33,9 @@
             href="/category/{category?.slug}"
             label="Back to {category?.name} Dates"
         />
-        <ShareButton {title} text={details?.description} url={shareUrl} />
+
+        <MoreMenu {title} text={details?.description} url={shareUrl} {search} />
+
     </header>
     <DateIdea date={data.date.details} />
 </div>

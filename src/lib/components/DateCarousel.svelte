@@ -15,7 +15,7 @@
      * @typedef {Object} DateItem
      * @property {string}  id
      * @property {string}  title
-     * @property {string}  [image]
+     * @property {string}  [img]
      * @property {string}  [imageAlt]
      * @property {string}  [duration]
      * @property {string}  [cost]
