@@ -52,13 +52,13 @@
         align-items: center;
     }
     footer.content-footer {
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
     .detail__cta {
         width: max-content;
         margin: 0 auto;
     }
     .detail__choose-btn {
-        min-width: 220px;
+        min-width: 15rem;
     }
 </style>

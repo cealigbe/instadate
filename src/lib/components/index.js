@@ -12,4 +12,5 @@ export { default as DateCarousel } from "./DateCarousel.svelte";
 export { default as DateIdea } from "./DateIdea.svelte";
 export { default as Footer } from "./Footer.svelte";
 export { default as MoreMenu } from "./MoreMenu.svelte";
+export { default as DatePager } from "./DatePager.svelte";
 export { default as Ficon } from "./Ficon.svelte";

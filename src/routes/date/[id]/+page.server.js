@@ -5,6 +5,7 @@ import dateCategories from "$lib/data/dateCategories.json";
 
 export function load({ params }) {
   let details = dateIdeas.find((d) => d.id == parseInt(params.id));
+  let siblings = dateIdeas.filter((d) => d.category == details?.category);
 
   if (!details) {
     error(404, { message: "Date idea not found" });
@@ -17,6 +18,7 @@ export function load({ params }) {
         (c) => c.slug == slugify(details?.category),
       ),
       details: details,
+      siblings: siblings,
     },
   };
 }

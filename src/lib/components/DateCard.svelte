@@ -102,7 +102,7 @@
         background-color: var(--color-white);
         width: 20rem;
         aspect-ratio: 1;
-        border: 1.5px solid var(--color-border);
+        border: 2px solid var(--color-border);
         text-decoration: none;
         color: var(--color-text-primary);
         transition:
